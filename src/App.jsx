@@ -13,7 +13,7 @@ function App() {
   const [quote, setQuote] = useState(phrase)
   const [bgApp, setBgApp] = useState(bgRandom)
 
-  const bgStyles = {backgroundImage: `url('../assets/fondo${bgApp}.jpg')`}
+  const bgStyles = {backgroundImage: `url('fondo${bgApp}.jpg')`}
 
   
 
